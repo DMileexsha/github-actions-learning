@@ -1,0 +1,20 @@
+name: Push Trigger Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  on-push-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Print message
+        run: echo "Workflow triggered by push event!"
+
+      - name: Show commit info
+        run: echo "Commit by ${{ github.actor }}"

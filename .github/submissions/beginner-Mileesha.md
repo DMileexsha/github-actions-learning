@@ -1,16 +1,16 @@
 # Beginner Task Submission - Mileesha
 
 ### 1. Workflow Run Evidence
-![Workflow Run](WorkflowRun.png)
+![Workflow Run](Workflow_Run.png)
 
 ### 2. Localhost Verification
 ![Localhost Screenshot](LocalhostScreenshot.png)
 
 ### 3. Test Results
-![npm test](npmtest.png)
+![npm test](npm_test.png)
 
 ### 4. Push Event
-![push event](pushevent.png)
+![push event](push_event.png)
 
 ---
 ### Task Checklist
